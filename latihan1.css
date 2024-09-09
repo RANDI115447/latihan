@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.7); /* Path gambar background */
+    background-size: cover; /* Menutup seluruh area */
+    background-position: center; /* Memposisikan gambar di tengah */
+    color: rgb(255, 255, 255); /* Warna teks di atas gambar */
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.7); /* Background hitam transparan */
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: rgb(106, 123, 184);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(29, 22, 22, 0.8); /* Background putih transparan */
+    color: #fafafa; /* Teks lebih gelap agar mudah dibaca */
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #030303; /* Warna teks utama */
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(93, 153, 198, 0.8); /* Biru lembut transparan */
+    color: rgb(31, 24, 24);
+}
+
+td {
+    background-color: rgba(56, 73, 183, 0.8); /* Putih transparan */
+}
+
+footer {
+    background-color: rgba(237, 94, 94, 0.7); /* Footer dengan background hitam transparan */
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
